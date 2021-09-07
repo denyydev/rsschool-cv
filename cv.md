@@ -28,3 +28,15 @@ function getMiddle(s)
   return s.slice(Math.ceil(s.length/2)-1, Math.floor(s.length/2)+1)
 }
 ```
+# Education:
+University: 
+Odessa National Polytechnic University - Nuclear Power Plants
+## Courses:
+
+[Web Developer 2021 - Udemy](https://www.udemy.com/course/webdeveloper/)
+
+[JavaScript for begginers - Udemy](https://www.udemy.com/course/modern-javascript-from-beginning/)
+
+# Languages:
+- English - A2
+- Russian/Ukraine - native
