@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css">   
+    <title>Responsive resume CV</title>
+</head>
+    <body>
+        <main>
+            <div class="container">
+                <div class="left_Side">
+                    <div class="profileText">
+                        <div class="imgBx">
+                            <img src="assets/images/img.jpg" alt="photo">
+                        </div>
+                        <h2>Denys Polehenky<br><span>Beginner FRONT-END DEVELOPER</span></h2>
+                    </div>
+                     <section class="contactInfo">
+                        <h3 class="title">Contact info:</h3>
+                        <ul>
+                            <li>
+                                <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                <span class="text">+380500458864</span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                                <span class="textmail">denyspolehenky@gmail.com</span>
+                            </li>
+                             <li>
+                                <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+                                 <span class="text"><a href="https://github.com/denyydev" target="_blank">GitHub</a></span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                                <span class="text">Zaporizhzhia, Ukraine</span>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="contactInfo education">
+                        <h3 class="title">Education:</h3>
+                            <ul>
+                                <li>
+                                    <h5>2014-2019</h5>
+                                    <h4>Nuclear power plants</h4>
+                                    <h4>Odessa National Polytechnic University</h4>
+                                </li>
+                            </ul>
+                            <h3 class="title">ONLINE LEARNING:</h3>
+                            <ul>
+                                 <li>
+                                    <h5>UDEMY</h5>
+                                    <h4><a href="https://www.udemy.com/course/modern-javascript-from-beginning/">Javascript for beginners</a></h4>
+                                </li>
+                                <li>
+                                    <h5>UDEMY</h5>
+                                    <h4><a href="https://www.udemy.com/course/webdeveloper/">Web Developer 2021</a></h4>
+                                </li>
+                            </ul>
+                    </section>
+                    <section class="contactInfo language">
+                        <h3 class="title">Languages:</h3>
+                        <ul>
+                            <li>
+                                <span class="text">English A2</span>
+                                <span class="percent">
+                                    <span style="width: 25%;"></span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">Russian</span>
+                                <span class="percent">
+                                    <span style="width: 100%;"></span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">Ukraine</span>
+                                <span class="percent">
+                                    <span style="width: 100%;"></span>
+                                </span>
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="right_Side">
+                <section class="about">
+                    <h2 class="title2">Profile</h2>
+                    <p>Hi, my name is Denis. At the moment I am working in the field of energy at a nuclear power plant. I love challenges and competitions, as well as learning new technologies. The goal is to reach the end of this course and get positive experiences and emotions.</p>
+                </section>
+                <div class="about">
+                    <h2 class="title2">Code Example</h2>
+                    <p>To complete this Kata you need to make a function multiplyAll/multiply_all which takes an array of integers as an argument. This function must return another function, which takes a single integer as an argument and returns a new array.</p>
+                    <br><p>The returned array should consist of each of the elements from the first array multiplied by the integer.</p>
+                    <br><h2 class="title2">My Solution</h2>
+                    <div class="box">
+                        <br><div class="code">
+                            <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(255, 255, 255); color: rgb(67, 79, 84);"><span class="hljs-function" style="color: rgb(114, 142, 0);"><span class="hljs-keyword" style="color: rgb(0, 151, 157);">function</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">multiplyAll</span>(<span class="hljs-params">arr</span>) </span>{ 
+                                <span class="hljs-keyword" style="color: rgb(0, 151, 157);">return</span> <span class="hljs-function" style="color: rgb(114, 142, 0);"><span class="hljs-keyword" style="color: rgb(0, 151, 157);">function</span>(<span class="hljs-params">multi</span>) </span>{
+                                  <span class="hljs-keyword" style="color: rgb(0, 151, 157);">return</span> arr.map(item =&gt; item * multi);
+                                };
+                              }</pre>
+                        </div>
+                         
+                </div>
+            </div>
+
+                <div class="about skills">
+                    <h2 class="title2">Professional Skills</h2>
+                    <div class="box">
+                    <h4>html</h4>
+                    <div class="percent">
+                        <span style="width: 50%;"></span>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>css</h4>
+                    <div class="percent">
+                        <span style="width: 50%;"></span>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>javascript</h4>
+                    <div class="percent">
+                        <span style="width: 25%;"></span>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>figma</h4>
+                    <div class="percent">
+                        <span style="width: 50%;"></span>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>photoshop</h4>
+                    <div class="percent">
+                        <span style="width: 50%;"></span>
+                    </div>
+                </div>
+            </div>
+        <div class="about interest">
+            <h2 class="title2">Interest</h2>
+            <ul>
+                <li><i class="fa fa-gamepad" aria-hidden="true"></i>Reading</li>
+                <li><i class="fa fa-microphone" aria-hidden="true"></i>Study</li>
+                <li><i class="fa fa-book" aria-hidden="true"></i>Sport</li>
+                <li><i class="fa fa-cutlery" aria-hidden="true"></i>Gaming</li>
+            </ul>
+        </div> 
+    </div>
+</div>
+        </main> 
+    </body>
+
+    
+</html>
+
